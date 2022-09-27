@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', cursive;
+    
+}
+body{
+    padding: 4%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(74, 72, 72); */
+    min-width: 30%;
+}
+.nav-items>h5{
+    /* background-color: rgb(190, 199, 254); */
+    font-size: 1.5rem;
+   font-weight: 100;
+}
+/* ----Nav finished----- */
+/* ----Left Section----- */
+
+.intro-section{
+    display: flex;
+    /* background-color: rgb(226, 255, 220); */
+
+}
+
+.left-section{
+    /* background-color: rgb(255, 178, 178); */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around   ;
+}
+h3{
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: lighter    ;
+}
+.sub-headline>img{
+    background-color: rgb(252, 149, 24);
+    padding: 0.25rem;
+    border-radius: 1.5rem;
+}
+.sub-headlines>h5{
+    font-weight: 100;
+}
+
+.text{
+    color: rgb(76, 77, 78);
+    font-weight: 100;
+}
+.action-btn{
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: rgb(255, 159, 33);
+    border: none;
+}
+/* ----Left section finished---- */
+.right-section{
+    /* background-color: rgb(255, 151, 151); */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headphone-div{
+    /* background-color: rgba(0, 203, 7, 0.79); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+}
+
+.discount,.discount-content{
+    position: absolute;
+    top: 450px;
+    right: 600px;
+    
+}
+.discount-content>*{
+position: relative;
+top: 50px;
+right: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+
+.dots{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.dot{
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: rgb(249, 0, 0);
+}
+
+.yellow-dot{
+    background-color: yellow;
+}
+.red-dot{
+    background-color: red;
+}
+.black-dot{
+    background-color: black;
+}
